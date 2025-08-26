@@ -3,7 +3,7 @@ import Player from "./Player.js";
 import Projeteis from "./Projeteis.js";
 import Grid from "./Grid.js";
 import Particula from "./Particulas.js";
-import { GameState } from "./constants.js";
+import GameState  from "./constants.js";
 
 const startScreen = document.querySelector(".start-screen");
 const gameOverScreen = document.querySelector(".game-over");
@@ -317,5 +317,6 @@ buttonRestart.addEventListener("click", () => {
 });
 
 gameLoop();
+
 
 
